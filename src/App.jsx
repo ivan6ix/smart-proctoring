@@ -28,7 +28,7 @@ import StudentCoursesPage from "./pages/student/StudentCoursePage";
 import AvailableExamsPage from "./pages/student/AvailableExamsPage";
 import ProfileSettingsPage from "./pages/profile/ProfileSettingsPage";
 import NotificationSettingsPage from "./pages/profile/NotificationSettingsPage";
-import PrivacyPasswordPage from "./pages/profile/PrivacyPasswordPage";
+import PrivacyPasswordPage from "./pages/Profile/PrivacyPasswordPage";
 import ProtectedRoute from "./routes/ProtectedRoute";
 import RoleProtectedRoute from "./routes/RoleProtectedRoute";
 import ProfessorCoursesPage from "./pages/professor/ProfessorCoursesPage";
@@ -41,6 +41,7 @@ import AdminReportsPage from "./pages/admin/AdminReportsPage";
 import DeanStudentHistoryPage from "./pages/dean/DeanStudentHistoryPage";
 import MessagesPage from "./pages/messages/MessagesPage";
 import UpdatePassword from "./pages/auth/UpdatePassword";
+
 
 function App() {
 
