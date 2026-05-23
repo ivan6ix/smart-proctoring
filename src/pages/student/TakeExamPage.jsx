@@ -38,7 +38,7 @@ function TakeExamPage() {
   const [scanStatus, setScanStatus] = useState("Not scanned");
   const [isScanning, setIsScanning] = useState(false);
 
-  const N8N_WEBHOOK_URL = "http://localhost:5678/webhook-test/environment-scan";
+  const N8N_WEBHOOK_URL = "https://collabify.app.n8n.cloud/webhook/environment-scan";
 
   const fetchExam = async () => {
     const { data: examData, error: examError } = await supabase
